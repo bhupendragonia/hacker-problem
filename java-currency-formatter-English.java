@@ -33,3 +33,17 @@ Link:--
 
 
 https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html
+
+
+/*
+
+ float amount = 100000;
+
+  NumberFormat formatter = NumberFormat.getCurrencyInstance(new Locale("en", "IN"));
+
+  String moneyString = formatter.format(amount);
+
+  System.out.println(moneyString);
+The output will be , Rs.100,000.00 .
+
+*/
