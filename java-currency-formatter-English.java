@@ -36,6 +36,7 @@ https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html
 
 
 /*
+for India like this
 
  float amount = 100000;
 
@@ -45,5 +46,11 @@ https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html
 
   System.out.println(moneyString);
 The output will be , Rs.100,000.00 .
+
+another way
+
+ NumberFormat india  = NumberFormat.getCurrencyInstance(indiaLocale);
+ 
+ 
 
 */
